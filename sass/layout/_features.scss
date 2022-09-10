@@ -1,0 +1,319 @@
+.features {
+    margin-top: 10rem;
+    text-align: center;
+    font-size: inherit;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+
+    &__text{
+        padding-bottom: 10rem;
+        margin: 0 auto;
+        text-align: center;
+        width: 45%;
+
+        &--1 {
+            padding: 3rem;
+            font-size: 3.5rem;
+        }
+
+        &--2 {
+            color: $color-grey-light;
+        }
+    }
+
+    &__img {
+      &--pic {
+        width: 80%;
+      }
+    }
+
+    &__content {
+        width: 90%;
+        margin: 10rem auto;
+        font-size: 1.6rem;
+
+        &--blacklist {
+          display: inline-block;
+          float: left;
+          width: 30%;
+
+          &__icon {
+              margin-bottom: 4rem;
+          }
+
+          &__text-big {
+            margin-bottom: 3rem; 
+          }
+
+          &__text-small {
+            color: $color-grey-light;
+          }
+        }
+
+        &--text {
+          display: inline-block;  
+          width: 30%;
+
+          &__icon{
+            margin-bottom: 5rem;
+         }
+
+         
+         &-big {
+            margin-bottom: 3rem; 
+        }
+
+        &-small{
+            color: $color-grey-light;
+          }
+
+        }
+
+        &--preview {
+            display: inline-block; 
+            float: right;
+            width: 30%;
+
+            &__icon{
+              margin-bottom: 5rem;
+            }
+
+            &__text-big {
+              margin-bottom: 3rem; 
+            }
+
+            &__text-small{
+                color: $color-grey-light;
+              }
+        }
+
+
+        &:not(:last-child) {
+            margin-right: 5rem;
+        }
+
+        
+        @include clearfix;
+    }
+}
+
+
+@media (max-width: 60em) {
+  .features {
+    margin-top: 8rem;
+
+    &__text {
+        width: 60%;
+    }
+
+    &__content {
+      width: 100%;
+
+        &--blacklist {
+          &__icon{
+              margin-bottom: 2rem;
+          }
+
+          &__text-big {
+            margin-bottom: 3rem; 
+          }
+        }
+
+        &--text { 
+          &__icon{
+            margin-bottom: 3rem;
+         }
+ 
+         &-big {
+            margin-bottom: 3rem; 
+        }
+
+        }
+
+        &--preview {
+            &__icon{
+              margin-bottom: 3rem;
+            }
+        }
+    }
+}
+
+}
+
+
+@media (max-width: 37.5em) {
+
+
+  .features {
+    margin-top: 7rem;
+
+
+
+    &__text{
+        padding-bottom: 7rem;
+
+        &--1 {
+            padding-left: 2rem;
+            font-size: 3rem;
+        }
+
+        &--2 {
+            color: $color-grey-light;
+            width: 70%;
+            margin-left: 4.3rem;
+        }
+    }
+
+
+    &__img {
+      &--pic {
+        width: 85%;
+      }
+    }
+
+    &__content {
+        width: 90%;
+        font-size: 1.8rem;
+
+        &--blacklist {
+          float: none;
+          width: 100%;
+          margin-bottom: 5rem;
+
+          &__icon{
+              margin-bottom: 3rem;
+          }
+
+          &__text-big {
+            margin-bottom: 3rem; 
+          }
+
+          &__text-small{
+            color: $color-grey-light;
+          }
+        }
+
+        &--text { 
+          width: 100%;
+          margin-bottom: 5rem;
+
+          &__icon{
+            margin-bottom: 3rem;
+         }
+
+         
+         &-big {
+            margin-bottom: 3rem; 
+        }
+
+        &-small{
+            color: $color-grey-light;
+          }
+
+        }
+
+        &--preview {
+            float: none;
+            width: 100%;
+            margin-bottom: 5rem;
+
+            &__icon{
+              margin-bottom: 3rem;
+            }
+
+            &__text-big {
+              margin-bottom: 3rem; 
+            }
+        }
+    }
+}
+}
+
+
+@media (max-width: 17.5em) {
+
+  .features {
+    margin-top: 7rem;
+
+
+
+    &__text{
+        padding-bottom: 7rem;
+        width: 100%;
+
+        &--1 {
+            padding-left: 2rem;
+            font-size: 3rem;
+        }
+
+        &--2 {
+            color: $color-grey-light;
+            width: 70%;
+            margin-left: 4.3rem;
+        }
+    }
+
+
+    &__img {
+      &--pic {
+        width: 85%;
+      }
+    }
+
+    &__content {
+        width: 80%;
+        font-size: 1.6rem;
+
+        &--blacklist {
+          float: none;
+          width: 100%;
+          margin-bottom: 5rem;
+
+          &__icon{
+              margin-bottom: 3rem;
+          }
+
+          &__text-big {
+            margin-bottom: 3rem; 
+          }
+
+          &__text-small{
+            color: $color-grey-light;
+          }
+        }
+
+        &--text { 
+          width: 100%;
+          margin-bottom: 5rem;
+
+          &__icon{
+            margin-bottom: 3rem;
+         }
+
+         
+         &-big {
+            margin-bottom: 3rem; 
+        }
+
+        &-small{
+            color: $color-grey-light;
+          }
+
+        }
+
+        &--preview {
+            float: none;
+            width: 100%;
+            margin-bottom: 5rem;
+
+            &__icon{
+              margin-bottom: 3rem;
+            }
+
+            &__text-big {
+              margin-bottom: 3rem; 
+            }
+        }
+    }
+}
+}

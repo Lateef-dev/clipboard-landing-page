@@ -1,0 +1,349 @@
+.acquire {
+    margin-top: 10rem;
+    text-align: center;
+    font-size: inherit;
+    line-height: 1.7;
+
+    &__brands {
+            margin: 10rem 0 10rem 3rem;
+
+        &--1 {
+           margin-left: -5rem;
+           margin-right: 7rem;
+        }
+
+        &--2 {
+            margin-right: 7rem;
+        }
+
+        &--3 {
+            margin-right: 7rem; 
+        }
+
+        &--4 {
+            margin-right: 7rem;  
+        }
+    }
+
+    &__text {
+        margin: 2rem auto;
+        width: 50%;
+        
+
+        &--big {
+            font-size: 3.5rem;
+            font-weight: 600;
+            padding-bottom: 3rem;
+        }
+
+        &--small {
+            font-size: inherit;
+            color: $color-grey-light;
+            padding-bottom: 3rem;
+        }    
+    }
+
+    &__download {
+        
+        &--ios {
+            margin: 3rem;
+            text-decoration: none;
+            text-align: center;
+            padding: 1.5rem;
+            display: inline-block;
+            width: 20rem;
+            border-radius: 3rem;
+            font-size: inherit;
+            background-color:  hsl(171, 66%, 44%);
+            color: $color-white;
+            box-shadow: -.1rem 1rem 2rem hsla(171, 66%, 44%, .2);
+        }
+    
+        &--mac {
+            margin: 3rem;
+            text-decoration: none;
+            text-align: center;
+            padding: 1.5rem;
+            display: inline-block;
+            width: 20rem;
+            border-radius: 3rem;
+            font-size: inherit;
+            background-color:  hsl(233, 100%, 69%);
+            color: $color-white;
+            box-shadow: -.1rem 1rem 2rem hsla(233, 100%, 69%, .2);
+        }
+    }
+}
+
+
+@media (min-width: 66.25em) {
+
+    .acquire {
+
+        &__download--ios {
+            margin: 1rem;
+            width: 40%;
+        }
+    
+        &__download--mac{
+            margin: 1rem;
+            width: 40%;
+        }
+    }
+
+    
+}
+
+@media (max-width: 66.25em) {
+
+   
+    .acquire {
+        margin-top: 8rem;
+    
+        &__brands {
+            margin: 10rem 0 10rem 3rem;
+            width: 100%;
+
+        &--1 {
+           margin-left: -5rem;
+           margin-right: 7rem;
+           width: 12%;
+        }
+
+        &--2 {
+            margin-right: 7rem;
+            width: 12%;
+        }
+
+        &--3 {
+            margin-right: 7rem; 
+            width: 12%;
+        }
+
+        &--4 {
+            margin-right: 7rem; 
+            width: 12%;
+        }
+
+        &--5 {
+            width: 12%;
+        }
+        }
+
+        &__download--ios {
+            margin: 1rem;
+            width: 40%;
+        }
+    
+        &__download--mac{
+            margin: 1rem;
+            width: 40%;
+        }
+            
+    }
+}
+
+@media (max-width: 60em) {
+    
+   .acquire {
+
+    &__download--ios {
+        margin: 1rem;
+        width: 40%;
+    }
+
+    &__download--mac{
+        margin: 1rem;
+        width: 40%;
+    }
+        
+    }   
+}
+
+@media (max-width: 47.125em) {
+
+    .acquire {
+
+        &__download--ios {
+            margin: 1rem;
+            padding: 1rem;
+            width: 80%;
+        }
+    
+        &__download--mac{
+            margin: 1rem;
+            padding: 1rem;
+            width: 80%;
+        }
+    }
+  
+
+}
+
+@media (max-width: 37.5em) {
+
+        .acquire {
+            margin-top: 4rem;
+        
+            &__brands {
+                margin: 10rem 0 10rem 3rem;
+    
+            &--1 {
+               margin-left: 20rem;
+               margin-right: 2rem;
+               display: block;
+               width: 30%;
+
+            }
+    
+            &--2 {
+                margin: 5rem 2rem auto 20rem;
+                display: block;
+                width: 30%;
+            }
+    
+            &--3 {
+                margin: 5rem 2rem auto 20rem;
+                display: block;
+                width: 30%;
+            }
+    
+            &--4 {
+                margin: 5rem 2rem auto 20rem;
+                display: block; 
+                width: 30%;
+            }
+
+            &--5 {
+                margin: 5rem 2rem auto 20rem;
+                display: block;
+                width: 30%;
+            }
+        }
+    
+    
+            &__download--ios {
+                margin-bottom: 1rem;
+                padding-bottom: 1rem;
+            }
+        
+            &__download--mac{
+                margin-bottom: 1rem;
+                padding-bottom: 1rem;
+            }
+        
+            &__text {
+                width: 80%;
+                
+        
+                &--big {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+
+@media (max-width: 29.75em) {
+    .acquire {
+
+        &__download--ios {
+            margin: 1rem;
+            width: 100%;
+        }
+    
+        &__download--mac{
+            margin: 1rem;
+            width: 100%;
+        }
+            
+        }  
+}
+
+@media (max-width: 22.5em) {
+
+    .acquire {
+
+        &__brands {
+            &--1 {
+              margin-left: 5rem;
+            }
+        
+            &--2 {
+                margin-left: 5rem; 
+            }
+        
+            &--3 {
+                margin-left: 5rem;   
+            }
+        
+            &--4 {
+                margin-left: 5rem;  
+            }
+        
+            &--5 {
+                margin-left: 5rem;   
+            }
+        }
+    }
+    
+}
+
+
+@media (max-width: 17.5em) {
+
+    .acquire {
+        margin-top: 8rem;
+    
+        &__brands {
+                text-align: center;
+    
+            &--1 {
+               margin-right: 5rem;
+               margin-bottom: 5rem;
+               width: 50%;
+            }
+    
+            &--2 {
+                margin-right: 5rem;
+                margin-bottom: 5rem;
+                width: 50%;
+            }
+    
+            &--3 {
+                margin-right: 5rem;
+                margin-bottom: 5rem;
+                width: 50%;
+            }
+    
+            &--4 {
+                margin-right: 5rem;
+                margin-bottom: 5rem;
+                width: 50%;
+            }
+
+            &--5 {
+                margin-right: 5rem;
+                width: 50%; 
+            }
+        }
+
+        &__download--ios {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+        }
+    
+        &__download--mac{
+            margin-top: 1rem;
+            padding-top: 1rem;
+        }
+    
+        &__text {
+            width: 80%;
+            
+    
+            &--big {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}

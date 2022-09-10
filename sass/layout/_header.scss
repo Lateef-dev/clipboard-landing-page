@@ -1,0 +1,41 @@
+// @font-face {
+//     font-family: "BaiJamjuree";
+//     src: url("BaiJamjuree-Regular.ttf");
+// }
+
+.header { 
+    background-image: linear-gradient(to bottom ,transparent, rgba($color-white, .6)), url('../../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 50vh;
+    padding-top: 8.5rem;
+
+    &__img {
+        width: 10%;
+    }
+
+    &__text {
+        font-size: 4rem;
+        font-weight: 600;
+        font-family: "Bai Jamjuree", sans-serif;
+        padding-top: 7rem;
+    }
+}
+
+@media (max-width: 17.5em) {
+    .header { 
+        text-align: center;
+        height: 35vh;
+        padding-top: 5.5rem;
+    
+        &__img {
+            width: 30%;
+        }
+    
+        &__text {
+            font-size: 3rem;
+            padding: 5rem 2rem;
+        }
+    }
+}
